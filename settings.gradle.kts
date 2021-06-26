@@ -10,3 +10,4 @@ rootProject.name = "News App"
 include(":app")
 include(":domain")
 include(":data:database")
+include(":data:api")
