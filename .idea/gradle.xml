@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/data" />
             <option value="$PROJECT_DIR$/data/api" />
             <option value="$PROJECT_DIR$/data/database" />
+            <option value="$PROJECT_DIR$/data/pref" />
             <option value="$PROJECT_DIR$/domain" />
           </set>
         </option>
