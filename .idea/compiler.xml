@@ -5,6 +5,7 @@
       <module name="News_App.app" target="15" />
       <module name="News_App.data.database" target="15" />
       <module name="News_App.database" target="15" />
+      <module name="News_App.domain" target="15" />
     </bytecodeTargetLevel>
   </component>
 </project>
