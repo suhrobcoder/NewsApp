@@ -16,4 +16,6 @@ data class SavedArticleEntity(
     @ColumnInfo(name = "content") val content: String,
 ) {
     @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "id") var id: Int = 0
+
+    companion object { }
 }

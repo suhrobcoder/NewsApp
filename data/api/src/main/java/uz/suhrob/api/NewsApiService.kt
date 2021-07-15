@@ -1,6 +1,5 @@
 package uz.suhrob.api
 
-import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
 import uz.suhrob.api.response.ApiResponse
@@ -11,7 +10,7 @@ interface NewsApiService {
         @Query("q") query: String,
         @Query("pageSize") pageSize: Int,
         @Query("page") page: Int,
-    ): Response<ApiResponse>
+    ): ApiResponse
 
     @GET("top-headlines")
     suspend fun getTopHeadlines(
@@ -19,5 +18,5 @@ interface NewsApiService {
         @Query("category") category: String,
         @Query("pageSize") pageSize: Int,
         @Query("page") page: Int,
-    ): Response<ApiResponse>
+    ): ApiResponse
 }
