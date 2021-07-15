@@ -8,7 +8,6 @@ buildscript {
     }
     dependencies {
         classpath("com.android.tools.build:gradle:7.0.0-beta05")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.5.20-RC")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
         classpath("org.jetbrains.kotlin:kotlin-serialization:$kotlin_version")
 

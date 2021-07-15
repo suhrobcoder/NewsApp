@@ -13,7 +13,7 @@ class SearchNews(
     suspend operator fun invoke(query: String, page: Int): Resource<List<Article>> {
         return safeCall {
             val response = api.getEverything(query = query, pageSize = PAGE_SIZE, page = page)
-            return Resource.Success(response.body()!!.articles.map { dto -> dto.toDomainModel() })
+            return Resource.Success(response.articles.map { dto -> dto.toDomainModel() })
         }
     }
 }
